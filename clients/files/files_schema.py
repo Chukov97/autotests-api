@@ -26,6 +26,3 @@ class CreateFileResponseSchema(BaseModel):
     Описание структуры ответа создания файла.
     """
     file: FileSchema
-
-
-print(CreateFileRequestSchema(upload_file='qqq'))
