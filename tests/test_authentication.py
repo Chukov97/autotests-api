@@ -11,6 +11,7 @@ from tools.assertions.schema import validate_json_schema
 
 def test_login():
     public_users_client = get_public_users_client()
+    authentication_client = get_authentication_client()
 
     create_user_request = CreateUserRequestSchema()
     public_users_client.create_user_api(create_user_request)
@@ -20,7 +21,7 @@ def test_login():
         password=create_user_request.password
     )
 
-    login_response = get_authentication_client().login_api(login_request)
+    login_response = authentication_client.login_api(login_request)
     login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
 
     assert_status_code(login_response.status_code, HTTPStatus.OK)
