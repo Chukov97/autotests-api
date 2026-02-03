@@ -18,7 +18,6 @@ class PublicUsersClient(APIClient):
         """
         return self.post("/api/v1/users", json=request.model_dump(by_alias=True))
 
-    # Добавили новый метод
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
         return CreateUserResponseSchema.model_validate_json(response.text)
