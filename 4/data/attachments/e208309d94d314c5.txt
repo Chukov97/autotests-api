@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjU3OjU0LjE0OTI2OSIsInVzZXJfaWQiOiI5OGI1MzA1Yy02Njk2LTRjMjktYWUwZS02OTM5N2RjMzVmOWMifQ.chq2MTIdbxSAiinHtOW1-RLVqFzTVdaV4K2q04ujDoA' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Always administration second debate least.","maxScore":99,"minScore":10,"description":"Response drop debate whole piece country direction. Short at special know turn training.\nAction million throughout learn close other deal. Sea series would per add. Young per prove.","estimatedTime":"6 weeks","previewFileId":"e2aed7c6-3374-4855-a428-4c3b8a949b7e","createdByUserId":"98b5305c-6696-4c29-ae0e-69397dc35f9c"}'

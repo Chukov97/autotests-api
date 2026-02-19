@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjU3OjUxLjY0MzUzNyIsInVzZXJfaWQiOiI4MDJiZjFlZi00OTViLTQ5ODctOGU1Mi0wOGI3MGQzNWY1ZTMifQ.k5zJnc3EJdIAC1w41b6wpMfBWDjxUmUbzmnW1GIyvm0' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Star wonder themselves return purpose especially.","maxScore":84,"minScore":22,"description":"Board recent simply around reflect. Wear military audience family ready look group. City base truth charge end return.","estimatedTime":"2 weeks","previewFileId":"9531ea9d-2a2c-4331-b054-aeaf5f01210a","createdByUserId":"802bf1ef-495b-4987-8e52-08b70d35f5e3"}'

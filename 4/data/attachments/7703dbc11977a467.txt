@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjU3OjUyLjIzOTY5NyIsInVzZXJfaWQiOiJmYjJiYmE3Zi0xMzFhLTRmYWItYjRiMy1iNGJlYWIzNTViY2YifQ.T-TnpR_NAAqDnBHZGjDSPaTVcooJLQHoTvDUj0AemZ8' \
+  -H 'content-length: 337' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Technology nothing likely voice physical direction only.","courseId":"6f1f0f52-30f9-46ea-8974-92cc38b5f880","maxScore":54,"minScore":19,"orderIndex":38,"description":"System hold bit tree camera fall north. Serve real man color father culture. Three stage sometimes technology sound add night until.","estimatedTime":"5 weeks"}'

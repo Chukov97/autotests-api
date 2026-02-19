@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/456bac55-9240-48a9-aaf9-abb8c29bfe44' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjU3OjQ5LjU3MjM2MSIsInVzZXJfaWQiOiIzZDVjOGNjYi04MjFiLTQ4ZjQtOTM1Ny0wN2YwYThjYTdiYjIifQ.jkXcz0X9obb3xxryvzBZeSGmlSpue2EgheF1wZyjtJk' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Time dog style officer local where inside.","maxScore":91,"minScore":26,"description":"Keep style side indicate. Air explain within professional mouth use many.\nRegion true door adult practice little. Four thus herself issue term hot. Remain fire live oil never.","estimatedTime":"2 weeks"}'

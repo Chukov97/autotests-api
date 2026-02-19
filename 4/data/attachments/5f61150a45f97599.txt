@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjU3OjUyLjIzOTY5NyIsInVzZXJfaWQiOiJmYjJiYmE3Zi0xMzFhLTRmYWItYjRiMy1iNGJlYWIzNTViY2YifQ.T-TnpR_NAAqDnBHZGjDSPaTVcooJLQHoTvDUj0AemZ8' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without eight region nothing finally community.","maxScore":51,"minScore":18,"description":"Product training necessary inside. Position soon management third family culture. Best old firm simple citizen laugh voice woman.","estimatedTime":"7 weeks","previewFileId":"b3bd13d3-57b0-4db4-a3db-0e8cfecb274c","createdByUserId":"fb2bba7f-131a-4fab-b4b3-b4beab355bcf"}'

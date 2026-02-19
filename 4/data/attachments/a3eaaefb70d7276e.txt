@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjU3OjQ5LjU3MjM2MSIsInVzZXJfaWQiOiIzZDVjOGNjYi04MjFiLTQ4ZjQtOTM1Ny0wN2YwYThjYTdiYjIifQ.jkXcz0X9obb3xxryvzBZeSGmlSpue2EgheF1wZyjtJk' \
+  -H 'content-length: 334' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Camera police ball.","maxScore":67,"minScore":18,"description":"Important could current across show. Throughout doctor hair bring line manager. Authority little live several different.","estimatedTime":"4 weeks","previewFileId":"111a80fa-d9ac-4adf-ad2f-1c3e2d383272","createdByUserId":"3d5c8ccb-821b-48f4-9357-07f0a8ca7bb2"}'
