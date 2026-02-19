@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAxLjcxMjYxMSIsInVzZXJfaWQiOiJiYjA3MThkNi1hMGVkLTQ0ZTEtOTQwZi00Y2Q1ZTkwYWJiNzIifQ.0xBK263a9M0aAsGEZ9qZbch5_hGf_rzw_ER32DaiCO0' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide information hair sister would next.","maxScore":73,"minScore":2,"description":"Performance decide range style information similar talk door. Author several certainly voice culture bar store.","estimatedTime":"1 weeks","previewFileId":"3bc24694-776c-4fc7-a802-ba427141d07a","createdByUserId":"bb0718d6-a0ed-44e1-940f-4cd5e90abb72"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAwLjUzNDY3NiIsInVzZXJfaWQiOiI4MWI1MThiYi1iNDQ2LTRjOGUtOTkzMy0xZTg4NmE1ZmM5NWYifQ.BXUeKt_wsFgED5fxsY-jc4IZdx2uCh18Jxg3EVDMANQ' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Develop conference case size born old work.","maxScore":90,"minScore":16,"description":"Market pattern medical range. Assume loss some for kind.\nFast American produce head out suffer show. Including very site. Member read property glass discuss onto will.","estimatedTime":"7 weeks","previewFileId":"89644ab4-7992-4b16-86ea-5c8c11744ff2","createdByUserId":"81b518bb-b446-4c8e-9933-1e886a5fc95f"}'

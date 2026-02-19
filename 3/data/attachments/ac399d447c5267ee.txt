@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAzLjk5MzkxMyIsInVzZXJfaWQiOiI5OGJkYzUzNS02NTJmLTRhMzAtYjNjNy01M2I3MGNhYzA5MDgifQ.MNmGRmgIhEJpImxMGHQ5WcAyL0ui65iIX7EjiqR-H-I' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rate inside available successful buy down listen.","maxScore":65,"minScore":9,"description":"Simple despite civil machine. Compare themselves south social behavior number stock.\nSecurity rather vote list president budget. Act reflect main player.","estimatedTime":"9 weeks","previewFileId":"e90543b0-4034-44d8-ae1d-3ec240b88657","createdByUserId":"98bdc535-652f-4a30-b3c7-53b70cac0908"}'

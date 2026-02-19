@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAzLjk5MzkxMyIsInVzZXJfaWQiOiI5OGJkYzUzNS02NTJmLTRhMzAtYjNjNy01M2I3MGNhYzA5MDgifQ.MNmGRmgIhEJpImxMGHQ5WcAyL0ui65iIX7EjiqR-H-I' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Anything exactly suddenly condition program series because.","courseId":"72c51071-9cce-4ffe-8b20-1318a17ed8d8","maxScore":87,"minScore":9,"orderIndex":91,"description":"Above culture large sit truth. Their road green this.\nPolitics owner today generation interview pretty. Improve significant move wrong sense change pick section.","estimatedTime":"5 weeks"}'

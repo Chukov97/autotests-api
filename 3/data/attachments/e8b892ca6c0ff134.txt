@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:40 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:87 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Wide information hair sister would next.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 73
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Performance decide range style information similar talk door. Author several certainly voice culture bar store.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 1 weeks
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file.id" equals to 3bc24694-776c-4fc7-a802-ba427141d07a
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user.id" equals to bb0718d6-a0ed-44e1-940f-4cd5e90abb72
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validating JSON schema

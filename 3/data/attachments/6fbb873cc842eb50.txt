@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjA0LjYzMjIxNCIsInVzZXJfaWQiOiJmZjI4MGNjMy0wNjFiLTQzMjUtYjA0OS01NTk0MGMyOWJhZDkifQ.uo9E69Ov5VlwE_ZtgYYujUu_zRKVIQExLJGOeFswM-k' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"She reveal smile PM front police in.","maxScore":67,"minScore":15,"description":"Safe determine ok heavy society herself allow. Executive until science music major part.\nWar idea since action part. Cell write why project seek. Cause quickly keep no.","estimatedTime":"10 weeks","previewFileId":"902b9f48-7373-44ce-8ff3-7e4a79692691","createdByUserId":"ff280cc3-061b-4325-b049-55940c29bad9"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAzLjQzNzgwMSIsInVzZXJfaWQiOiI0MTU4MDBlMC02MWRkLTRlM2EtODliYS0yY2NlY2Q4OTRiMjYifQ.p8IplFN3Z6rnCPD98CJAGeISTBZ9IWjJ2ztVK4N8yG8' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Southern season traditional right hard.","maxScore":73,"minScore":1,"description":"Music wish white who kind not. Law democratic boy history among skill water.\nEasy sound serve establish. Glass challenge identify wait.","estimatedTime":"7 weeks","previewFileId":"b44ffb6e-c898-4e7d-bfba-0d6535068622","createdByUserId":"415800e0-61dd-4e3a-89ba-2ccecd894b26"}'

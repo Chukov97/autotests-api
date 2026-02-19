@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/c9c3037c-b174-4896-9d49-ef814a474185' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAwLjUzNDY3NiIsInVzZXJfaWQiOiI4MWI1MThiYi1iNDQ2LTRjOGUtOTkzMy0xZTg4NmE1ZmM5NWYifQ.BXUeKt_wsFgED5fxsY-jc4IZdx2uCh18Jxg3EVDMANQ' \
+  -H 'content-length: 323' \
+  -H 'content-type: application/json' \
+  -d '{"title":"None discover different night account especially where door.","maxScore":62,"minScore":18,"description":"Stuff evening find government economic field. Card this in reveal red. Free strategy organization such same staff prove.\nSeries PM them anyone success. Together seat entire staff.","estimatedTime":"3 weeks"}'

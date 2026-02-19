@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAxLjEwMTY0MyIsInVzZXJfaWQiOiI3MmZmMjZjYi01ODc0LTRlZmMtYjg5Mi1iZmU2MzNhYWE0NzYifQ.SlcTzjtmw4VQH0AYWejFzh1Zy5BRHhFBeWfqfF75L-Q' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish to so dark want million receive.","maxScore":89,"minScore":25,"description":"Conference base laugh stand. Fund second human open executive eat.\nAgreement specific television leave. Suffer seek parent either. Television fish though.","estimatedTime":"5 weeks","previewFileId":"f8e5c994-8ffd-4b97-a6c6-c16c56feb501","createdByUserId":"72ff26cb-5874-4efc-b892-bfe633aaa476"}'

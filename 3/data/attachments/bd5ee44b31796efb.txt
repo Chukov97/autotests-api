@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjUwOjAyLjI2NzcyOCIsInVzZXJfaWQiOiIxYTg5MGQxNS1hZmVhLTQ5YzAtOGE5MS1hN2U4NzRmZWI3MDkifQ.yTtk3qy50XWkoFUIWKTCYxMGvTEFSZhh-tWImikzqP0' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open senior ground answer talk general long.","maxScore":98,"minScore":25,"description":"Congress thing tax. Ok majority play minute ago. Interesting Republican century watch seven fight notice.","estimatedTime":"2 weeks","previewFileId":"9c373b63-46b7-49a2-a34c-2931bcd28db3","createdByUserId":"1a890d15-afea-49c0-8a91-a7e874feb709"}'
