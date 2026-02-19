@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ2LjEzMTM5MCIsInVzZXJfaWQiOiI0MGMxNzhjMC05YjdhLTQwMjAtYjU2NS0xNGYzZGZiZjE0NGYifQ.Qt_pHoBptVMZOaEaO7N97axQO6zrsO1t2JlGpKxnsU0' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Staff capital word.","maxScore":67,"minScore":4,"description":"Thought black side ten democratic.\nRest no finally join interesting. High peace accept full. Catch debate Republican enjoy return less.","estimatedTime":"5 weeks","previewFileId":"4448d1fe-7f9f-47ce-acc0-cb546a88409f","createdByUserId":"40c178c0-9b7a-4020-b565-14f3dfbf144f"}'

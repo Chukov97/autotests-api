@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ3LjM1MDE5NiIsInVzZXJfaWQiOiI3MmQyY2EwOC0xZGVhLTRlM2QtYTI3Yy05MDkyMjNmMDljOWEifQ.5qX9WOoFUorbD10lazqIBJTB6snvoCgdBryXK_m11gM' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"I future sure travel forget include.","maxScore":89,"minScore":16,"description":"Few science site strong. Fund pressure politics store bed play. Customer pull young east return.\nSeveral town anything book position next large.\nBill unit performance size.","estimatedTime":"9 weeks","previewFileId":"a02a3913-9e84-4d87-baff-124594d67cae","createdByUserId":"72d2ca08-1dea-4e3d-a27c-909223f09c9a"}'

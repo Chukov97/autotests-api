@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ1LjU0MDI3MSIsInVzZXJfaWQiOiI2MzFhN2IyNS04MDZhLTQ3MWYtOGVkMC0yZWMwZTg2MzE3NmYifQ.Y5VJZnMg21dkMdBBhL6CLYUypTKdlpUqW9Tr5UAolks' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particular put American soon serious popular perhaps.","maxScore":60,"minScore":27,"description":"Argue lead could skin population understand skill.\nTheir fire least parent level build bring feeling. Ok their source force support prevent. Property small certainly wall article.","estimatedTime":"4 weeks","previewFileId":"c688496a-6447-42a0-bb63-555f7300fc48","createdByUserId":"631a7b25-806a-471f-8ed0-2ec0e863176f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ0Ljk1NTcyMyIsInVzZXJfaWQiOiJiZjA3YWY2OC1kYjdmLTQ0NjgtOGI2Yi1mZDliZGJkOTA1YjcifQ.Xr89ArHENtzjDgn8bXvWynF9RpIk5haRl1IWWrxC6J8' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Eight policy discuss know direction.","maxScore":98,"minScore":4,"description":"Theory others poor smile alone understand above. Describe campaign race hotel drive team field.\nBut because skin very fine reality. Third work cold sense many.","estimatedTime":"8 weeks","previewFileId":"b4f9f3d2-a148-4486-b635-77262582d035","createdByUserId":"bf07af68-db7f-4468-8b6b-fd9bdbd905b7"}'

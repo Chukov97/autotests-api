@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ2Ljc2MzE0MiIsInVzZXJfaWQiOiI5YjVjMTU1Ny00Nzg3LTRhYTEtOWM3Yi03NjU1NGJiMTZhZDAifQ.d7NeOT9YBsrS464-hNWceZTNPh2zJtmk12wCaeDtnxk' \
+  -H 'content-length: 428' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ground soon mother how either future.","maxScore":56,"minScore":27,"description":"Focus loss early green effort these lawyer. Not lawyer approach collection show. East up though performance conference not lot catch.\nThird successful pretty music. Mind western look beat theory.","estimatedTime":"8 weeks","previewFileId":"7dac6fe5-cc9d-4380-b4c0-7cf7eeabcf39","createdByUserId":"9b5c1557-4787-4aa1-9c7b-76554bb16ad0"}'

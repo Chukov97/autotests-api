@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ1LjU0MDI3MSIsInVzZXJfaWQiOiI2MzFhN2IyNS04MDZhLTQ3MWYtOGVkMC0yZWMwZTg2MzE3NmYifQ.Y5VJZnMg21dkMdBBhL6CLYUypTKdlpUqW9Tr5UAolks' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Animal over future drug table such to.","courseId":"a90f4acb-1edd-4d33-bc1f-fe73ab0edadd","maxScore":96,"minScore":9,"orderIndex":98,"description":"Director four manager argue trial leg source spring. The child car hope. Husband our foreign interest.","estimatedTime":"4 weeks"}'

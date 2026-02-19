@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ4LjI3MDk3OSIsInVzZXJfaWQiOiI5MjZiODVhZS0yNDM5LTRhY2YtYjI5Ny0xYzA5N2M0MGQwNTcifQ.JXwsFkfpZRrn625YkNN7vxEXnmM3hne2QsoF-Hf-Rjo' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry heavy important kind truth chance.","maxScore":99,"minScore":20,"description":"Experience exactly high world not risk. Prevent world with often think. Level care administration white allow be. Mother seek hundred discussion box remain.","estimatedTime":"4 weeks","previewFileId":"b180e739-097c-4966-ac0b-3a74e2491a4d","createdByUserId":"926b85ae-2439-4acf-b297-1c097c40d057"}'

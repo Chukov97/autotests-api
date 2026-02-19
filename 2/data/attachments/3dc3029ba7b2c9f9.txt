@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQ0LjM2OTY3OSIsInVzZXJfaWQiOiI5OWQ2NTJkZi1lN2VlLTRmM2YtOTI1My1jYWU5ZDFjNWFhYmIifQ.ReLZFlqWocOSoZhTokmksYnVn6sVeBiNJq2os76zjUM' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Right live some often third push perhaps.","maxScore":87,"minScore":8,"description":"Hand might need course. War black couple wait ground life new. May fire buy industry.\nForward carry suffer.\nSecurity prevent whether accept price yourself. Operation technology allow change.","estimatedTime":"9 weeks","previewFileId":"43fc8700-cbb0-4ba0-8a42-00b8bf06578f","createdByUserId":"99d652df-e7ee-4f3f-9253-cae9d1c5aabb"}'

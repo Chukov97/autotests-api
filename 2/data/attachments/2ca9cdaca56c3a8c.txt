@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDEwOjEzOjQzLjQ2NTAxNyIsInVzZXJfaWQiOiI1NDlmNjE0ZS0xYTMwLTQ1NmQtYjE4Mi0wNDI3OGRlNTBkOWUifQ.9UHY0XHLqGM-93nlX1rNBY3wHR7pNal5zlOWgFHXJp0' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We soon everything exist order city near.","maxScore":68,"minScore":30,"description":"Administration that situation ok certainly form policy. Rock point which three size. Order meet cultural paper.","estimatedTime":"8 weeks","previewFileId":"1abb0172-2f59-4da5-bd4a-f5aef9b8ed19","createdByUserId":"549f614e-1a30-456d-b182-04278de50d9e"}'
