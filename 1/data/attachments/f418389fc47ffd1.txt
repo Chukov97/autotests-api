@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjEyLjMyMTU0MyIsInVzZXJfaWQiOiJiNzRhMTBkNS03MTc3LTRlMGEtYTcwMC1mYTMzOTYzYWZmZTkifQ.R5aJU4xunEKmiNBocnjo36yXF-YAxTG3z_r3RwnCNcY' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"While paper far road usually six check.","maxScore":93,"minScore":28,"description":"Everybody usually class skin personal Mr perform. Democrat push still hotel. Financial actually human within away.","estimatedTime":"5 weeks","previewFileId":"080f3ec9-cdc6-42fc-88aa-bb2d5e7faca6","createdByUserId":"b74a10d5-7177-4e0a-a700-fa33963affe9"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b17db1a6-4df1-4497-b76a-3b99e80ee7e0' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjExLjcyOTA1NiIsInVzZXJfaWQiOiI3MDk1ODIzOC05ZTU2LTQ1MDEtYThlNC1hOTQ2Y2Y0NWFhNGYifQ.tx6Tx3JUM6Mvw__siEyu2ODQNf_z8tEyLyCmpjgEAdQ' \
+  -H 'content-length: 256' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Industry forget but he tend whose per.","maxScore":96,"minScore":28,"description":"Speech see often strategy talk rise. Red sit phone respond huge.\nChair during happy increase. Plant practice economy land onto assume.","estimatedTime":"4 weeks"}'

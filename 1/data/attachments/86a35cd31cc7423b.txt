@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjEyLjk3MTgzMyIsInVzZXJfaWQiOiIxYzc5ZTJkYy01MGExLTRiY2UtYmU5MC03NDA3M2NkODNjMzYifQ.Act8XfMPNZy2oSH-j6xPCcLLVsC5d0STvFWJT6qXJ3E' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Good early social leader interesting.","maxScore":92,"minScore":2,"description":"Man yes officer individual quickly. Light knowledge allow beat minute security several change. Many mission visit. Those do prove oil PM night ok.","estimatedTime":"7 weeks","previewFileId":"d2d7463f-11a2-477b-919c-d697262fd459","createdByUserId":"1c79e2dc-50a1-4bce-be90-74073cd83c36"}'

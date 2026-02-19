@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjE1LjM4OTE2MSIsInVzZXJfaWQiOiIwNGY3ZjVmMi05ZTE3LTQ3ZWQtYWY3NS04Mzg1N2M2MWZiNTIifQ.ZC6vkixvCwVjA_SrR6ZzRf8KcsVvbwz1y4ZrRXXe2ss' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Although inside soldier team.","maxScore":91,"minScore":15,"description":"Bill American help blood office whom. Prove industry claim student we admit with build.\nGrow money support image father. Fire sort fight never reason newspaper likely.","estimatedTime":"5 weeks","previewFileId":"0f243b48-85e4-43cd-881e-15c1714cdebf","createdByUserId":"04f7f5f2-9e17-47ed-af75-83857c61fb52"}'

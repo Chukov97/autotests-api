@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjE0LjE0MDAwOSIsInVzZXJfaWQiOiI5Nzc4NWZmNS1mNWQzLTQwMzctOWNiZi0zMDRiNjBlZmRmZDcifQ.6_-a6af-JDcAIPIobnJVIDmjOEZz1p4vZ_4KMmw59Js' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We score sort question support leave herself.","maxScore":60,"minScore":27,"description":"Move really music senior debate. Similar conference hot land. Quite hold responsibility reflect.","estimatedTime":"7 weeks","previewFileId":"618704d4-c49a-4b8f-879d-251b51ca9d70","createdByUserId":"97785ff5-f5d3-4037-9cbf-304b60efdfd7"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjEzLjU1MzI3NSIsInVzZXJfaWQiOiJjMTRlMzk5Yi0wM2FkLTQzZmMtYjc2ZS01MTAxYjJhYTM5NjAifQ.Tb1SVGafTUkS_JOETPiVU0PmsHk7JRvymPfePwyfD44' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Push skin work course modern reduce.","maxScore":69,"minScore":18,"description":"Coach physical their everybody bed art while toward. Around point sing national. Major back why safe customer guy.\nYoung across involve them prove drop decide. North decade relate produce.","estimatedTime":"5 weeks","previewFileId":"37bc768b-4f54-4ad0-b7cd-b3a90d8a8700","createdByUserId":"c14e399b-03ad-43fc-b76e-5101b2aa3960"}'

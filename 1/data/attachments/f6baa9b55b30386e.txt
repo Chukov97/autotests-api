@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjE2LjAzMDI3NiIsInVzZXJfaWQiOiIyMDgxNmYzOC00MjU3LTRiZjQtYjYzNi01OTJiNTYyMDg5MjcifQ.W0ihAxxOkNT3-MMgqpc5NXx74oNvIqAotFPZc2OdZIk' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"School executive eat space may think.","maxScore":58,"minScore":28,"description":"Show key director hear easy allow change. Look agree lawyer.\nMove draw well character you huge side. Until yeah own out notice perform them.","estimatedTime":"5 weeks","previewFileId":"40fe0475-33fe-4486-8b36-d8409fb72b14","createdByUserId":"20816f38-4257-4bf4-b636-592b56208927"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTE5VDA5OjI4OjExLjcyOTA1NiIsInVzZXJfaWQiOiI3MDk1ODIzOC05ZTU2LTQ1MDEtYThlNC1hOTQ2Y2Y0NWFhNGYifQ.tx6Tx3JUM6Mvw__siEyu2ODQNf_z8tEyLyCmpjgEAdQ' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Him box kid that.","maxScore":73,"minScore":23,"description":"Law learn treatment his.\nLead commercial most think. Hair value particularly consider five. Those that student yeah wonder.","estimatedTime":"7 weeks","previewFileId":"08238f13-b957-407c-92e6-a31e2272d6af","createdByUserId":"70958238-9e56-4501-a8e4-a946cf45aa4f"}'
