@@ -209,3 +209,10 @@ allure-report
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# coverage
+coverage.html
+coverage-results
+coverage-report.json
+coverage-history.json
+
