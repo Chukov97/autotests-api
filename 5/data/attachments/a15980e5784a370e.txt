@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE2OjM2OjUzLjQwMTc0MyIsInVzZXJfaWQiOiIxMGIzODZiZC0yNjJjLTRmMjktYWJjMy1jOWM1MmYxMGQ4MGUifQ.O9nLG48NZax1CypRcFKmyrgwcdrOCBloq29-TJa44Z4' \
+  -H 'content-length: 440' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Later stuff she step specific newspaper listen within.","maxScore":57,"minScore":19,"description":"Message generation country. There look economic drive.\nMight standard pressure account data cultural. Behavior individual sure. Far visit half.\nCare think high safe. News center production.","estimatedTime":"9 weeks","previewFileId":"aaeb9cb3-af64-46d8-9ff8-66e7d27f2923","createdByUserId":"10b386bd-262c-4f29-abc3-c9c52f10d80e"}'

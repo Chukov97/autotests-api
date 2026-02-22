@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE2OjM2OjUxLjA4NTQ2MCIsInVzZXJfaWQiOiI3YmQyMDIyOC1hYzVkLTQ4YmItOGM3Yy0yNzUxNTFkYjY3ZTgifQ.fDhUqOa_762j3hrufOgWBpQ8lo335iGTxAg3HXCNOi0' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Line factor fact appear.","maxScore":92,"minScore":18,"description":"Play statement former wife town which. Force argue store book medical choice and.\nCar great expect billion kid thing. Thousand middle floor large.","estimatedTime":"4 weeks","previewFileId":"bddb61f5-6b68-44d7-bc0f-7f9672cb66dd","createdByUserId":"7bd20228-ac5d-48bb-8c7c-275151db67e8"}'

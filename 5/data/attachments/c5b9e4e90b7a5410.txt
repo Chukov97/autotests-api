@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE2OjM2OjUxLjM0NDQyNSIsInVzZXJfaWQiOiIxYTU0NDk3ZC05NjZmLTQyN2ItYjE1Yy0yZGQ0ZTBjYmNlZjIifQ.ufeOMs9aB7CxxfeRc22TOKr9d2T0R5_c17vgXoyH42w' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must product decade such under.","courseId":"3ec2e734-1642-455d-988b-e8f366d27412","maxScore":85,"minScore":10,"orderIndex":32,"description":"Simply month thought throughout during affect after. According situation season laugh those. Feeling officer trouble Republican certainly. Different expect size at foot those.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE2OjM2OjUwLjIxNjg2MiIsInVzZXJfaWQiOiI2ZmY1MDU0Mi0zYzYzLTRjYWUtOTc2My0wMWE0ZmI1ODQxODMifQ.2gCvLrbSi7EfTwXm9LZTz7PdYBybNzEzPqJ7CAHmvlQ' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Story run treat better myself.","maxScore":99,"minScore":18,"description":"Next bill personal physical news child behind offer. You table probably morning. Require case place others.","estimatedTime":"8 weeks","previewFileId":"b9c906b4-5821-478b-9a31-3afbe3e0b180","createdByUserId":"6ff50542-3c63-4cae-9763-01a4fb584183"}'

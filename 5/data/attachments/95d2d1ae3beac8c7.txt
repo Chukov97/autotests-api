@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/3c51b6dd-80c8-493e-8d30-19855d6148d5' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE2OjM2OjQ4Ljg2ODMxNyIsInVzZXJfaWQiOiJlYTU0M2EwNi1jNjNkLTRjODktYmZiZi00ZjdiZTVkZWM0NDIifQ.2ZvrPV_YZzYIOsn-0FXWugPaBypdYjY78TxusgG_xdk' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class popular baby with six forget level.","maxScore":83,"minScore":15,"description":"Ball leave section boy return international.\nDemocrat standard summer effort place within. Themselves ever theory organization research.","estimatedTime":"3 weeks"}'
