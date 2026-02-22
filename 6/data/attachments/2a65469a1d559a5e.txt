@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE3OjIyOjEzLjgxNDcxOCIsInVzZXJfaWQiOiI5MGQwNmE0Ny00ZDI1LTQzYmUtODFlNy0wM2YyMmRkYWEwMWUifQ.Yrl8zRyPZUvWMxgWA8XiBlTYhsm5W-fgQMf60ker7_E' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Think nature lot really.","maxScore":53,"minScore":17,"description":"New notice defense particular.\nInside look section guess name hand. Method perform offer operation nice account. Natural finish father simply shoulder computer soldier.","estimatedTime":"7 weeks","previewFileId":"bbc3f5f7-98c5-4bfa-8888-01ab27c62d75","createdByUserId":"90d06a47-4d25-43be-81e7-03f22ddaa01e"}'

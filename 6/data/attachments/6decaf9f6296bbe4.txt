@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE3OjIyOjE1LjAyMjA5MSIsInVzZXJfaWQiOiI0ZjIyYzBjNy1kYzRkLTQ5YWYtYmY0MS1lMDRkZGY3NzRkZDMifQ.jFozVzNhgc2Fs61cVqJQt4h6RUsi2nRCiDhXRhfvEIs' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Five happen believe exactly economy investment approach.","maxScore":50,"minScore":14,"description":"Spring dream support start. May ten card town win age.\nCompany someone pretty she stop should claim care. Still maybe sell there open.","estimatedTime":"8 weeks","previewFileId":"f52158cc-b9ca-4a86-97c5-a5a2fcf223ed","createdByUserId":"4f22c0c7-dc4d-49af-bf41-e04ddf774dd3"}'

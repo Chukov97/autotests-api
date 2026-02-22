@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE3OjIyOjE0LjA4OTgwNyIsInVzZXJfaWQiOiJhODhmOWExNS02MWQ0LTRmY2MtOTU4Yy1jMjg5YjE4ZDBmYWEifQ.RJf_hw0BXOs1bYveTXuKvyA0fW1KIWtMx1T4nyiV3vM' \
+  -H 'content-length: 394' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural wear senior happy heavy law.","maxScore":56,"minScore":27,"description":"Wife another back that world know. Sense fund then responsibility agree. Yes listen speak fact not dream house.\nNone test low notice look. Use might blood under.","estimatedTime":"3 weeks","previewFileId":"68693bdb-4890-441b-a775-5a4adfd575a1","createdByUserId":"a88f9a15-61d4-4fcc-958c-c289b18d0faa"}'

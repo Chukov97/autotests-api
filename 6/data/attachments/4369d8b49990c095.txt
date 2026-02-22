@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE3OjIyOjEyLjYxNTU1NyIsInVzZXJfaWQiOiIyNTQyMTAzMS1mYmM0LTRiZmEtYTM4OC1lODU3ZjIzNzYwMjgifQ.Pcb_AoI2vE3cFxN8TvUGycQeEXiDvwptogz4fMWsEYQ' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Court beat crime star.","maxScore":91,"minScore":20,"description":"Message million serve foot employee.\nHelp seat material cause. Business quality well finally Mrs mind success.","estimatedTime":"6 weeks","previewFileId":"72b7d913-f40b-46af-bd6e-e7c3d4b27ab5","createdByUserId":"25421031-fbc4-4bfa-a388-e857f2376028"}'

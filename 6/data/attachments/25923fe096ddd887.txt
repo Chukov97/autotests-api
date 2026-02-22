@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/555274fe-fa14-46b6-b00d-b89050ac3272' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE3OjIyOjExLjQ2MTI0NiIsInVzZXJfaWQiOiIyNzEzOTk1Yy1hYjc4LTQzOTMtOWQ5Yy1hZTQyMmQzNWZhZjAifQ.TDB4BrJD-dct_qfEGY0z-uLxzjr4FMnwT_7FqEQ_sdc' \
+  -H 'content-length: 279' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Value director little around adult.","maxScore":57,"minScore":11,"description":"Nothing nation all agent. Clear economic issue play exist cause clearly body. Radio southern record shake prepare service ball. Answer involve school they third.","estimatedTime":"2 weeks"}'

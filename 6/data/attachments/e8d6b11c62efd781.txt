@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE3OjIyOjE2LjI2ODQyMSIsInVzZXJfaWQiOiIwNGY1MGVjYi0zODEwLTQ2MTctODU1My0wMTc1M2NiNzgzZmQifQ.J3LKzQqMmeCBO7Y2LKFXr8Ujz1RWTR-MOtUSMhqg7XU' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Without listen apply eye open.","maxScore":74,"minScore":9,"description":"First similar knowledge onto above positive. Over performance believe eight perform deal individual. System should when.\nAlways threat keep movie. Fall whose make sometimes.\nYard even south once.","estimatedTime":"5 weeks","previewFileId":"c67e9e8b-84a3-4744-a0af-4eb0ffb25a06","createdByUserId":"04f50ecb-3810-4617-8553-01753cb783fd"}'

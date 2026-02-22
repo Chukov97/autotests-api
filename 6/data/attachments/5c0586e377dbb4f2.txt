@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIyVDE3OjIyOjE1LjI5NTYwOSIsInVzZXJfaWQiOiJhYjFhZTJiZS1mODg2LTRjM2UtODA2Ny1lZDkzNDFjMTdmMTIifQ.QFiKyP76d8HZMmoaOONJMfaeJqZNqBionJ1uHPrUHuc' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Generation generation ground resource another.","maxScore":86,"minScore":10,"description":"Thus continue knowledge remember go. Writer task foreign always someone sit realize.","estimatedTime":"10 weeks","previewFileId":"9e76e51b-70f9-41f0-b35d-749267c5c12f","createdByUserId":"ab1ae2be-f886-4c3e-8067-ed9341c17f12"}'
