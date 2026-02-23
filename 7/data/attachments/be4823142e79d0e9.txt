@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/41076e75-9b0a-4798-8764-aa4526c18cac' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE2OjUwOjA2LjUyMTcyOSIsInVzZXJfaWQiOiJhNDg0ZjRjOS1iMjgzLTRlNjUtOWY4OC0zYmY2ODAzNzUzZGUifQ.qJhsmwtLVGBre2xjPtcplEnG6yIFPzY1wESflry9tRY' \
+  -H 'content-length: 214' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Expect never provide.","maxScore":61,"minScore":14,"description":"Close music commercial middle dinner might. Account measure night bring. Out drop bring best care police cold.","estimatedTime":"5 weeks"}'

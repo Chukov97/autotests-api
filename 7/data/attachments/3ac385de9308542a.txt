@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE2OjUwOjA5LjE2MzI0OSIsInVzZXJfaWQiOiIxMjcxYzk3ZC1mNDEzLTQ2OGYtYjU5ZS0yNDk5ODBmZGJlNjAifQ.Xo_WK1bupl3GhvdjJBJDR-B-FAtz4kVVzHRdFeiFUG8' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song fight respond owner.","courseId":"d231fe81-f39e-4d70-8ee0-8a78cf2c5798","maxScore":80,"minScore":14,"orderIndex":90,"description":"Cell character suggest parent instead after. Give action yes wish head least parent. Base him off mission interesting price.\nQuickly hair reflect former. Important box tree trip.","estimatedTime":"9 weeks"}'

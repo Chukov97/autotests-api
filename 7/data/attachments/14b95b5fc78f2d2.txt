@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE2OjUwOjA4LjU3NjA2MCIsInVzZXJfaWQiOiIyOGRmNTgyYS05YzIwLTQwOWMtYTdjMi01MGMzNjllYjk1OTUifQ.DQjm2rf6tci9TToa5vBfDsn_sRF5OOWc9dWL9NxBm3E' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Time key tonight five half along society number.","maxScore":90,"minScore":30,"description":"Mission deep painting however factor dog outside only. Skill age campaign. Artist right recently tell end brother something.\nStrong customer cut. When war level carry that project.","estimatedTime":"4 weeks","previewFileId":"241f8471-eeb0-4fb0-81c9-5d4d794dc795","createdByUserId":"28df582a-9c20-409c-a7c2-50c369eb9595"}'

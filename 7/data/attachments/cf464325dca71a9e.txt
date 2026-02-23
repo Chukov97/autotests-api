@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE2OjUwOjA5Ljc5MTQ2MiIsInVzZXJfaWQiOiJlMzBmZjNmNy0zZWU2LTQ1Y2MtOTRlNC0xOTdlN2Q1NjYwOTgifQ.HbqRXncJy0QKFp5rP-NhtkdDEIlmFU-B4erz7y7De0Q' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"State head effort impact save.","maxScore":54,"minScore":14,"description":"Person catch despite skill. Power professional away just religious season. Best on she Republican skin picture firm. Where ever energy.\nAmong you matter region. Daughter walk know office entire.","estimatedTime":"2 weeks","previewFileId":"737e7100-6e77-41be-a1a9-5d1969ac2c14","createdByUserId":"e30ff3f7-3ee6-45cc-94e4-197e7d566098"}'

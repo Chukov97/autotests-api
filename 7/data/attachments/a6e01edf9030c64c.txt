@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE2OjUwOjEwLjM4MTY4MyIsInVzZXJfaWQiOiI0MDQxOTYzMy01ZWRlLTRiYmYtYTMxZC1lODMzMjY0MDVkNTgifQ.ObzT2wFZiBepcSlA-91ymhLJVtgIxDrFGPFcdgW7Jzo' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beautiful piece no know break.","maxScore":90,"minScore":13,"description":"Measure remain have wide until family. Authority baby training affect yet. Station often large relate make up.","estimatedTime":"4 weeks","previewFileId":"232f1e4d-9a16-4b7c-a507-0ff649c69cc4","createdByUserId":"40419633-5ede-4bbf-a31d-e83326405d58"}'

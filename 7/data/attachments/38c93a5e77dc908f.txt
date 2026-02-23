@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE2OjUwOjA3Ljk5ODAyMyIsInVzZXJfaWQiOiI3Yzc2YjE3ZC04ZWY4LTQyYTctYTI5ZC1jMjAwODJiYjg4NjkifQ.AiGImm8xIl2LATjzG0YxfOJ3dFMVG-Esk9rtBV2wSeI' \
+  -H 'content-length: 411' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sure professional do.","maxScore":75,"minScore":28,"description":"Daughter recent without break individual of. Need child from past. Around energy generation effort in prepare record.\nChurch could different show wind court something. Occur draw quickly pretty.","estimatedTime":"2 weeks","previewFileId":"bc035615-9ed1-4a85-a138-24fb9046deb9","createdByUserId":"7c76b17d-8ef8-42a7-a29d-c20082bb8869"}'

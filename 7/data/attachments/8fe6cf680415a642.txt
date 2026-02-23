@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTAyLTIzVDE2OjUwOjExLjAzNDU3MCIsInVzZXJfaWQiOiJlYTNhZmVmNS1lMTI4LTQ0ZmMtYWY0ZC04ZmRjMjMyNDFiZGEifQ.VNNJm89yVk_KX00nD3KpdmudSmVzhOuMfgWNjna-8QA' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Left human early wife nearly attorney young case.","maxScore":83,"minScore":11,"description":"Decision road sing apply task anyone. Part research realize commercial.\nAffect consumer anyone outside face. Relationship hard college.\nTrip light fine benefit movie. Since yet cause air.","estimatedTime":"8 weeks","previewFileId":"dab18ea1-a4bd-4647-a194-602ad130145a","createdByUserId":"ea3afef5-e128-44fc-af4d-8fdc23241bda"}'
